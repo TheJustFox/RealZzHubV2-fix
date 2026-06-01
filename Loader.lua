@@ -18,7 +18,7 @@ environment.game = setmetatable({}, {
             return function(_, url)
                 if url == "https://raw.githubusercontent.com/RealZzHub/Main/main/UILibV2.lua" then
                     print("[+] Spoofed UI Library")
-                    return _game:HttpGet("i didnt upload file yet fuuck")
+                    return _game:HttpGet("https://github.com/TheJustFox/RealZzHubV2-fix/raw/refs/heads/main/fixeduilibv2.lua")
                 elseif url == "https://raw.githubusercontent.com/RealZzHub/MainV2/main/Misc/Credits.txt" then
                     print("[+] Spoofed Credits")
                     return [[decerzz | Main & UI Library,
